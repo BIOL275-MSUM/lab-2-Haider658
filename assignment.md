@@ -86,3 +86,46 @@ geom\_crossbar( mapping = aes(ymin = lower, ymax = upper, y = mean),
 data = chicx\_summary, width = 0.2, alpha = 0.2 ) + labs( title =
 “Weights of chicxs fed organic and non-organic grain”, x = “Diet”,
 color = “Diet”, fill = “Diet”, y = “Weight (g)” )
+
+``` r
+sessioninfo::session_info()
+```
+
+    ## Warning in system("timedatectl", intern = TRUE): running command 'timedatectl'
+    ## had status 1
+
+    ## ─ Session info ───────────────────────────────────────────────────────────────
+    ##  setting  value                       
+    ##  version  R version 4.0.3 (2020-10-10)
+    ##  os       Ubuntu 16.04.7 LTS          
+    ##  system   x86_64, linux-gnu           
+    ##  ui       X11                         
+    ##  language (EN)                        
+    ##  collate  C.UTF-8                     
+    ##  ctype    C.UTF-8                     
+    ##  tz       Etc/UTC                     
+    ##  date     2021-01-21                  
+    ## 
+    ## ─ Packages ───────────────────────────────────────────────────────────────────
+    ##  package     * version date       lib source        
+    ##  assertthat    0.2.1   2019-03-21 [1] RSPM (R 4.0.3)
+    ##  cli           2.2.0   2020-11-20 [1] RSPM (R 4.0.3)
+    ##  crayon        1.3.4   2017-09-16 [1] RSPM (R 4.0.3)
+    ##  digest        0.6.27  2020-10-24 [1] RSPM (R 4.0.3)
+    ##  evaluate      0.14    2019-05-28 [1] RSPM (R 4.0.3)
+    ##  fansi         0.4.2   2021-01-15 [1] RSPM (R 4.0.3)
+    ##  glue          1.4.2   2020-08-27 [1] RSPM (R 4.0.3)
+    ##  htmltools     0.5.1   2021-01-12 [1] RSPM (R 4.0.3)
+    ##  knitr         1.30    2020-09-22 [1] RSPM (R 4.0.3)
+    ##  magrittr      2.0.1   2020-11-17 [1] RSPM (R 4.0.3)
+    ##  rlang         0.4.10  2020-12-30 [1] RSPM (R 4.0.3)
+    ##  rmarkdown     2.6     2020-12-14 [1] RSPM (R 4.0.3)
+    ##  sessioninfo   1.1.1   2018-11-05 [1] RSPM (R 4.0.3)
+    ##  stringi       1.5.3   2020-09-09 [1] RSPM (R 4.0.3)
+    ##  stringr       1.4.0   2019-02-10 [1] RSPM (R 4.0.3)
+    ##  withr         2.4.0   2021-01-16 [1] RSPM (R 4.0.3)
+    ##  xfun          0.20    2021-01-06 [1] RSPM (R 4.0.3)
+    ##  yaml          2.2.1   2020-02-01 [1] RSPM (R 4.0.3)
+    ## 
+    ## [1] /home/rstudio-user/R/x86_64-pc-linux-gnu-library/4.0
+    ## [2] /opt/R/4.0.3/lib/R/library
