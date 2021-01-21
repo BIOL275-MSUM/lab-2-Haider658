@@ -1,6 +1,6 @@
 Lab 2 Assignment
 ================
-\_\_\_
+\_\_Haider\_
 2021-01-21
 
 ## Instructions
