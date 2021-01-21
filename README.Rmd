@@ -1,6 +1,6 @@
 ---
 title: "Lab 2: Introduction to RStudio"
-author: "___"
+author: "Haider"
 date: "`r format(Sys.Date())`"
 output: github_document
 ---
@@ -13,8 +13,8 @@ Welcome to my Lab 2 repository for Quantitative Biology BIOL 275 at MSUM.
 
 The objectives of this lab are:
 
-- ___
-- ___
+- _Understanding the basics of R calculator_
+- _Learning to run codes in R studio_
 
 ## Repository contents
 
